@@ -11,6 +11,7 @@ import {
   Text8,
   Text9,
 } from './Task-1-9'
+import App from './task-12/App'
 
 import Task10 from './Task10'
 import Task11 from './Task11'
@@ -29,5 +30,6 @@ root.render(
     <Text9 />
     <Task10 />
     <Task11 />
+    <App />
   </React.StrictMode>
 )

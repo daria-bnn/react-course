@@ -1,18 +1,16 @@
-export function Text1() {
-  return <div>текст1</div>
-}
+export const Text1 = () => <div>текст1</div>
 
-export function Text2() {
+export const Text2 = () => {
   const text = 'текст2'
   return <div>{text}</div>
 }
 
-export function Text3() {
+export const Text3 = () => {
   const text = <p>текст3</p>
   return <div>{text}</div>
 }
 
-export function Text4() {
+export const Text4 = () => {
   const text1 = <p>текст1</p>
   const text2 = <p>текст2</p>
 
@@ -25,19 +23,19 @@ export function Text4() {
   )
 }
 
-export function Text5() {
+export const Text5 = () => {
   const attr = 'block'
 
   return <div id={attr}>текст5</div>
 }
 
-export function Text6() {
+export const Text6 = () => {
   const str = 'block'
 
   return <div className={str}>текст6</div>
 }
 
-export function Text7() {
+export const Text7 = () => {
   const objStyle = {
     backgroundColor: 'green',
     borderRadius: '50px',
@@ -47,13 +45,13 @@ export function Text7() {
   return <div style={objStyle}>текст7</div>
 }
 
-export function Text8() {
+export const Text8 = () => {
   const show = true
 
   return <div>{show ? 'текст1-true' : 'текст2-false'} </div>
 }
 
-export function Text9() {
+export const Text9 = () => {
   const array = ['a', 'b', 'c', 'd', 'e']
 
   return (
